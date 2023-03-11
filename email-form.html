@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Email-Form</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+            <legend>Information:</legend>
+                <div>
+                    <label for="name">First Name:</label>
+                    <input id="name" type="text" name="name" placeholder="First Name"/>
+                </div>
+                <div>
+                    <label for="name">Last Name:</label>
+                    <input id="name" type="text" name="name" placeholder="Last Name"/>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" name="email" placeholder="youremail@domain.com"/>
+                </div>
+            </fieldset>
+            <div>
+                <label for="form-message">Your Message:</label>
+                <textarea
+                    id="form-message"
+                    name="message"
+                    autofocus="on"
+                    required
+                    maxlength="200"
+                    placeholder="Input your message here"
+                ></textarea>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
